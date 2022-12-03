@@ -28,6 +28,6 @@ CREATE TABLE `clientes_produtos` (
   usuario_id INT,
   produto_id INT,
   PRIMARY KEY (`id`),
-  CONSTRAINT `fk_clientes` FOREIGN KEY(usuario_id) REFERENCES clientes (id), 
-  CONSTRAINT `fk_produtos` FOREIGN KEY (produto_id) REFERENCES produtos(id)
+  CONSTRAINT `fk_clientes` FOREIGN KEY(usuario_id) REFERENCES clientes (id) on DELETE cascade, 
+  CONSTRAINT `fk_produtos` FOREIGN KEY (produto_id) REFERENCES produtos(id) on DELETE cascade
 );
