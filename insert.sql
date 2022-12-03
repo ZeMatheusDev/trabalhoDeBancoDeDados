@@ -24,29 +24,33 @@ values
 ('Clodovaldo', '025145854125', '3218455', '4521521', 'Rua tereza de vilela');
 
 INSERT INTO produtos
-(nome, descricao, valor)
+(nome, descricao, valor,marca,qtd_estoque)
 values
-('Relogio', 'relogio de pulso dourado', '$150,00');
+('Relogio', 'relogio de pulso dourado', '$150,00','Mormaii',2);
 
 INSERT INTO produtos
-(nome, descricao, valor)
+(nome, descricao, valor,marca,qtd_estoque)
+
 values
-('Chapeu', 'chapeu aba reta preto', '$70,00');
+('Chapeu', 'chapeu aba reta preto', '$70,00','Rexpeita',3);
 
 INSERT INTO produtos
-(nome, descricao, valor)
+(nome, descricao, valor,marca,qtd_estoque)
+
 values
-('Camisa de manga', 'camisa social de manga M', '$120,00');
+('Camisa de manga', 'camisa social de manga M', '$120,00','Hering',4);
 
 INSERT INTO produtos
-(nome, descricao, valor)
+(nome, descricao, valor,marca,qtd_estoque)
+
 values
-('Bermuda', 'bermuda de praia numero 32', '$90,00');
+('Bermuda', 'bermuda de praia numero 32', '$90,00','Mister',5);
 
 INSERT INTO produtos
-(nome, descricao, valor)
+(nome, descricao, valor,marca,qtd_estoque)
+
 values
-('Calça jeans', 'calça jeans numero 32', '$220,00');
+('Calça jeans', 'calça jeans numero 32', '$220,00','Mister',5);
 
 INSERT INTO clientes_produtos(usuario_id, produto_id)
 SELECT c.id, p.id FROM clientes c, produtos p WHERE c.id = 1 && p.id = 1
