@@ -1,3 +1,4 @@
+-- INSERINDO DADOS NAS TABELAS
 INSERT INTO clientes
 (nome, cpf, login, senha, endereco)
 values

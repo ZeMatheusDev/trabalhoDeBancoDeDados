@@ -1,3 +1,4 @@
+-- ATUALIZANDO A TABELA
 UPDATE clientes SET nome = 'Ednaldo Pereira' WHERE id = 1; -- Update no nome DO CLIENTE no cliente de id 1
 UPDATE clientes SET nome = 'Jurisvaldo' WHERE id = 2;
 
