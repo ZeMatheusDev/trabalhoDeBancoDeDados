@@ -24,13 +24,14 @@ CREATE TABLE `produtos` (
   PRIMARY KEY (`id`)
 );
 
--- RELACIONANDO AS TABELAS
+-- CRIANDO TABELA DE RELACIONAMENTO DE TABELAS 
 
 CREATE TABLE `clientes_produtos` (
   id INT AUTO_INCREMENT,
   usuario_id INT,
   produto_id INT,
   PRIMARY KEY (`id`),
+  -- RELACIONANDO AS TABELAS
   CONSTRAINT `fk_clientes` FOREIGN KEY(usuario_id) REFERENCES clientes (id) ON DELETE cascade, 
   CONSTRAINT `fk_produtos` FOREIGN KEY (produto_id) REFERENCES produtos(id) ON DELETE cascade
 );
