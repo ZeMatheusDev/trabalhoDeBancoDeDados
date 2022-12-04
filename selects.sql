@@ -1,7 +1,7 @@
-SELECT c.nome from clientes c INNER JOIN produtos ON c.id = produtos.id;
-SELECT p.descricao from produtos p INNER JOIN clientes ON p.id = clientes.id;
-select p.descricao from produtos p LEFT JOIN clientes on p.id = clientes.id;
-select c.nome from clientes c LEFT JOIN produtos on c.id = produtos.id;
+SELECT c.nome FROM clientes c INNER JOIN produtos ON c.id = produtos.id;
+SELECT p.descricao FROM produtos p INNER JOIN clientes ON p.id = clientes.id;
+SELECT p.descricao FROM produtos p LEFT JOIN clientes ON p.id = clientes.id;
+SELECT c.nome FROM clientes c LEFT JOIN produtos ON c.id = produtos.id;
 SELECT SUM(id) AS somaDeIds FROM clientes;
 SELECT SUM(qtd_estoque) AS somaDeQuantidades FROM produtos;
 SELECT MAX(qtd_estoque) AS maiorQuantidade FROM produtos;
