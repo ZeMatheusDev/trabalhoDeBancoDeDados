@@ -1,5 +1,9 @@
 # Trabalho de Banco de Dados
 
+Projeto da disciplina Banco de dados com o objetivo de criar um banco de dados funcional, aplicando os conhecimentos obtidos na disciplina.
+
+## Integrantes
+
 Professor: 
 
 [Francisco Vital](https://www.linkedin.com/in/francisco-vital-0b5b0021/)
@@ -11,8 +15,15 @@ Alunos:
 - [Gustavo Caruazu](www.caruazu.com)
 - [Jose Matheus](https://github.com/ZeMatheusDev)
 	
+## Resultados
 
----
+### Esquema
+### Criação
+### Inserção
+### Alteração
+### Exclusão
+
+### Consultas
 
 ![select1](./img/select1.jpg)
 ![select2](./img/select2.jpg)
@@ -31,6 +42,6 @@ Alunos:
 ![select15](./img/select15.jpg)
 ![select16](./img/select16.jpg)
 ![select17](./img/select17.jpg)
-![select18](./img/select18jpg)
+![select18](./img/select18.jpg)
 ![select19](./img/select19.jpg)
 ![select20](./img/select20.jpg)
