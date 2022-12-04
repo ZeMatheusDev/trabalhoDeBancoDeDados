@@ -1,12 +1,16 @@
 # Trabalho de Banco de Dados
 
-Professor: Francisco Vital da Silva Junior
+Professor: 
+
+[Francisco Vital](https://www.linkedin.com/in/francisco-vital-0b5b0021/)
 
 Alunos:
-	- Gustavo Caruazu
-	- Cayo Capuxy
-	- Jose Matheus
-	- Hedvaldo Costa
+
+- [Cayo Capuxy](https://github.com/capuxy)
+- [Hedvaldo Costa](https://github.com/HedvaldoCosta)
+- [Gustavo Caruazu](www.caruazu.com)
+- [Jose Matheus](https://github.com/ZeMatheusDev)
+	
 
 ---
 
