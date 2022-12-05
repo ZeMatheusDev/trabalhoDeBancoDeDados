@@ -1,4 +1,5 @@
 -- CRIANDO AS TABELAS
+
 CREATE DATABASE loja;
 USE loja;
 
@@ -11,7 +12,9 @@ CREATE TABLE `clientes` (
   endereco varchar(50),
   
   PRIMARY KEY (`id`)
-);
+)
+
+;
 
 CREATE TABLE `produtos` (
   id INT AUTO_INCREMENT,
@@ -22,7 +25,9 @@ CREATE TABLE `produtos` (
   qtd_estoque INT,
 
   PRIMARY KEY (`id`)
-);
+)
+
+;
 
 -- CRIANDO TABELA DE RELACIONAMENTO DE TABELAS 
 
@@ -31,7 +36,17 @@ CREATE TABLE `clientes_produtos` (
   usuario_id INT,
   produto_id INT,
   PRIMARY KEY (`id`),
+
   -- RELACIONANDO AS TABELAS
-  CONSTRAINT `fk_clientes` FOREIGN KEY(usuario_id) REFERENCES clientes (id) ON DELETE cascade, 
-  CONSTRAINT `fk_produtos` FOREIGN KEY (produto_id) REFERENCES produtos(id) ON DELETE cascade
-);
+  CONSTRAINT `fk_clientes` 
+  FOREIGN KEY(usuario_id) 
+  REFERENCES clientes (id) 
+  ON DELETE cascade,
+
+  CONSTRAINT `fk_produtos`
+  FOREIGN KEY (produto_id)
+  REFERENCES produtos(id)
+  ON DELETE cascade
+)
+
+;
